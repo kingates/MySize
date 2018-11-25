@@ -3,11 +3,9 @@ import styles from "./App.scss";
 import imageSrc from "../../assets/1.png";
 
 
-
-
 export default class App extends React.Component {
   render() {
-    return <div className={ styles.app  }>To jest app TEST TEST TEST
+    return <div className={ styles.app  }>To jest  TESTESTESTEST
     <img src={ imageSrc } />
     </div>
   }
