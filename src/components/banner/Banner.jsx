@@ -1,13 +1,14 @@
 import React from "react";
+import styles from './Banner.scss';
+import logo from "../../assets/logo.png"
 
-const Banner = ({ onContinue }) => (
-  <div className="banner">
-    <div className="mainTitle">
-      <h1>It Will Be Better</h1>
-      <p>Your daily mood tracker</p>
-      <ul className="actions">
-        <li><a onClick={ onContinue } className="button alt scrolly big">Continue</a></li>
-      </ul>
+
+const Banner = () => (
+  // <div className="banner">
+  <div className={styles.banner}>
+    <div className={styles.bannerLogo}>
+      <img src={logo} alt={"logo"}/>
+      <p className={styles.subtitle}>Your daily mood tracker</p>
     </div>
   </div>
 );
