@@ -40,35 +40,72 @@ body {
 }
 
 
-.faces {
-  background-color: #F5F5F5;
-}
 
-.gallery {
-  padding: 3.5em;
-  position: relative;
-  overflow: hidden;
-  // height: auto;
+.container {
+  // padding-top: 2em;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 1.75em;
+  padding: 0;
+  padding-left: 50px;
+  color: #181818;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 }
 
-.question {
-  color: #22313F;
-  font-size: 2em;
-  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
-  font-weight: 800;
-  line-height: 1.5;
-  margin: 0 0 1.5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.intro {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #989898;
 }
 
-.content {
+.inputValue {
+  margin-top: 1em;
+  font-size: 1.25em;
+}
+
+.inputMedium {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: grey;
+  border-radius: 5px;
+  border: 	#E0E0E0 solid 1px;
+  height: 30%;
+  width: 170%;
+  line-height: 1.58125em;
+  padding-left: 5px;
+  // text-align: left;
+  // justify-content: flex-start;
+  margin-bottom: 1.2em;
+}
+
+.button {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  background-color: grey;
+  color: white;
+  font-weight: 400;
+  height: 2.5em;
+  border-radius: 5px;
+  border: grey solid 1px;
+}
+
+
+.titleDiary {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  // justify-content: center;
+  // text-align: center;
+}
+
+
+.icon {
+  height: 1em;
+  width: 1em;
+  padding-left: 120px;
+  padding-bottom: 15px;
+  opacity: 0.8;
 }

@@ -53,23 +53,22 @@ body {
   width: 25%;
   // height: 300px;
 }
+.image {
+  position: relative;
+}
 
 .image span {
-  // height: 50px;
-// width: 200em;
-// margin-top: 45%;
-background-color: rgba(255,255,255, 0.5);
-opacity: .5;
-// color: black;
-// font-weight: 400;
-// font-size: 20px;
-color: #22313F;
-font-size: 2em;
-font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
-font-weight: 900;
-line-height: 1.5;
-position: relative;
-
+  background-color: rgba(255,255,255, 0.7);
+  opacity: 0.6;
+  padding: 5px 15px;
+  color: black;
+  font-size: 27px;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
 
 .images img {
@@ -79,5 +78,11 @@ position: relative;
 }
 
 .images:hover img {
-  transform: scale(1.075);
+  transform: scale(1.095);
+}
+
+
+.image:hover span {
+  color: black;
+  background-color: rgba(255,255,255, 0.9);
 }

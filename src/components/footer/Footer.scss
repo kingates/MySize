@@ -40,12 +40,35 @@ body {
 }
 
 
-.thirdContainer {
+.footer {
+  background: #f2f2f2;
   display: flex;
-  align-items: center;
   flex-direction: row;
-  justify-content: flex-start;
-    padding: 3.5em;
-    background-color: #E8E8E8;
+  justify-content: space-between;
+  padding: 3.5em;
+  height: 3.5%;
+}
 
+
+.icon {
+  opacity: 0.8;
+  padding-right: 10px;
+  height: 40px;
+}
+.copyright {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  color: #bfbfbf;
+  font-size: 1em;
+  margin: 0 0 2em;
+  padding: 20px 1em 0;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.copyright a {
+  text-decoration: none;
+    color: grey;
 }
